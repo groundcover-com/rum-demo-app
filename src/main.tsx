@@ -8,9 +8,9 @@ import groundcover from "@groundcover/browser";
 
 function init() {
   groundcover.init({
-    cluster: "dev",
-    environment: "dev",
-    appId: "app-id",
+    cluster: "production",
+    environment: "production",
+    appId: "flower-shop",
     dsn: "https://<public_endpoint>",
     apiKey: "api-key",
   });
